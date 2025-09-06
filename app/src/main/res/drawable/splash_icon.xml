@@ -8,8 +8,8 @@
     -->
     <item
         android:drawable="@drawable/app_logo"
-        android:width="108dp"
-        android:height="108dp"
+        android:width="100dp"
+        android:height="100dp"
         android:gravity="center" />
 
 </layer-list>
