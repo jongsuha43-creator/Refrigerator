@@ -12,7 +12,20 @@
           "package_name": "com.cookandroid.foodrecipe"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "847570932894-ce3n9s1831bl78e92aqt2q5qlh42nrcp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.foodrecipe",
+            "certificate_hash": "bf3afbf8dc27d94d973037925ae8e1bb03b32daf"
+          }
+        },
+        {
+          "client_id": "847570932894-h4p3vnn0n729n23l3akoajc3447hiau5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAGEzdEH5CyCtj40gYlC_YA8MrEPOYQVNM"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847570932894-h4p3vnn0n729n23l3akoajc3447hiau5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

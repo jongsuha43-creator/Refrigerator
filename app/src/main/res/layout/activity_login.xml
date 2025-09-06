@@ -19,16 +19,18 @@
         android:textStyle="bold"
         android:layout_marginBottom="16dp"/>
 
-    <!-- 아이디 -->
+    <!-- 이메일 -->
     <EditText
+        android:id="@+id/ETemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="아이디"
+        android:hint="이메일"
         android:inputType="text"
         android:layout_marginBottom="10dp"/>
 
     <!-- 비밀번호 -->
     <EditText
+        android:id="@+id/ETpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="비밀번호"
@@ -61,6 +63,7 @@
         android:gravity="center">
 
         <TextView
+            android:id="@+id/Tfind_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="아이디 찾기"
@@ -72,6 +75,7 @@
             android:layout_height="wrap_content"/>
 
         <TextView
+            android:id="@+id/Tfind_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="비밀번호 찾기"
@@ -83,6 +87,7 @@
             android:layout_height="wrap_content"/>
 
         <TextView
+            android:id="@+id/joinT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="회원가입"

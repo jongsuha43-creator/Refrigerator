@@ -25,10 +25,17 @@
         </activity>
 
         <!-- 2. 다른 Activity들도 시스템에 등록합니다. -->
+        <!-- Login -->
         <activity
             android:name=".LoginActivity"
             android:exported="false"/>
 
+        <!-- join -->
+        <activity
+            android:name=".JoinActivity"
+            android:exported="false"/>
+
+        <!-- Main -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -38,6 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
