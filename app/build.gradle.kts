@@ -48,6 +48,7 @@ dependencies {
 
     //파이어베이스 연동
     // Import the Firebase BoM
+    // Firebase BoM(Bill of Materials) - 여러 Firebase 라이브러리 버전을 한번에 관리해줍니다.
     implementation(platform("com.google.firebase:firebase-bom:34.2.0"))
     // TODO: Add the dependencies for Firebase products you want to use
     // When using the BoM, don't specify versions in Firebase dependencies
