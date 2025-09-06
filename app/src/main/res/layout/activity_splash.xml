@@ -8,7 +8,10 @@ android:layout_height="match_parent"
 android:orientation="vertical"
 tools:context=".MainActivity"
     android:background="#1A1A1A">
-    
+
+    <!-- SplashScreen API 를 사용한 전용테마를 만들었기 때문에 splash레이아웃
+         을 따로 만들 필요가 없어짐-->
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
