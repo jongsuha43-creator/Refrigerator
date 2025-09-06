@@ -56,5 +56,7 @@ dependencies {
     // Add the dependencies for any other desired Firebase products
     // https://firebase.google.com/docs/android/setup#available-libraries
 
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
 
 }
